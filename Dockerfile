@@ -1,5 +1,7 @@
-FROM golang:1.20.4-alpine
+FROM golang:latest
+RUN git clone https://github.com/Anshuman2121/golang.git
+RUN go build
 WORKDIR /app
 COPY . .
 EXPOSE 5000
-CMD ["golang", "main.go"]
+CMD ["./m.exe"]
