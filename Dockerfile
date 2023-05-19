@@ -1,6 +1,7 @@
 FROM golang:latest
-RUN go mod init main.go/m
+RUN go mod init src/m
 RUN go mod tidy
+RUN export $GOPATH=/usr/local/go/src
 RUN go build
 WORKDIR /app
 COPY . .
