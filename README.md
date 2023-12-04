@@ -6,13 +6,13 @@ This is a simple Golang application that serves a webpage with a blue background
 
 Before running the application, make sure you have the following dependencies installed on your machine:
 
-- Go (version 1.17 or higher)
+- Go (version 1.17 or higher) yes
 
-## Getting Started
+## Getting Started go project
 
 Follow these steps to run the application manually on your local machine:
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: Dipu singh
 
    ```
    git clone <repository-url>
@@ -46,7 +46,7 @@ If you want to customize the application, you can modify the `main.go` file. You
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)..
 
 ---
 
